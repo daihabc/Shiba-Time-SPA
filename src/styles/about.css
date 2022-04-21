@@ -1,0 +1,76 @@
+.about {
+    background-color: #fbd57a;
+    padding-bottom: 2rem;
+}
+
+.about__title {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-family: 'Lucida Grande';
+    font-weight: bold;
+    font-size: large;
+}
+
+.about__image__wrapper--outter {
+    position: relative;
+    height: calc(65vw);
+}
+
+.about__image__wrapper--inner {
+    position: relative;
+    height: 40%;
+    background-color: #a1c3b0;
+}
+
+.about__text {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.about__img__shiba1 {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+
+    border-radius: 50%;
+    border: solid #85923d 0.3rem;
+    height: calc(33vw);
+    width: calc(33vw);
+
+    animation-duration: 2s;
+    animation-name: img-jumpout;
+}
+
+.about__img__shiba2 {
+    position: absolute;
+    right: 1rem;
+    top: 3rem;
+    border-radius: 50%;
+    border: solid #85923d 0.3rem;
+    height: calc(45vw);
+    width: calc(45vw);
+    animation-duration: 0.5s;
+    animation-name: img-jumpout;
+}
+
+.about__quote {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+@keyframes img-jumpout {
+    0% {
+        transform: translate(-2%, -2%);
+    }
+
+    50% {
+        transform: translate(-6%, -6%);
+    }
+
+    100% {
+        transform: translate(-2%, -2%);
+    }
+}

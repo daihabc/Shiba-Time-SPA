@@ -1,0 +1,37 @@
+.indicator::before {
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  height: 30px;
+  width: 30px;
+  left: calc(50vw - 1ch);
+  background: linear-gradient(45deg, skyblue, blue) border-box;
+  mask:
+    linear-gradient(white 0 0) padding-box,
+    linear-gradient(white 0 0);
+  mask-composite: exclude;
+  content: "";
+  animation: 1s linear infinite spin;
+}
+
+.indicator--active {
+  display: block;
+}
+
+.indicator--hidden {
+  display: none;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

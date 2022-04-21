@@ -1,0 +1,14 @@
+# Query: role
+# ContextLines: 1
+
+2 results - 2 files
+
+src/components/Carousel.jsx:
+  59    return (
+  60:     <div className="carousel" role="region">
+  61        <a
+
+src/components/Indicator.jsx:
+  3      return (
+  4:         <div className="indicator" role="status">
+  5          </div>

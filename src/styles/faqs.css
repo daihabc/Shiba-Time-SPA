@@ -1,0 +1,100 @@
+.FAQs {
+  background: seashell;
+}
+
+.FAQs__title {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-family: 'Lucida Grande';
+  font-weight: bold;
+  font-size: large;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  max-width: 40rem;
+  border-bottom: none;
+}
+
+.accordion__title {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 0.2rem;
+  padding-right: 3rem;
+  border: none;
+  border-radius: 0.3rem;
+  font: inherit;
+  font-weight: bold;
+  text-align: left;
+}
+
+.accordion__entry:first-of-type>.accordion__title,
+.accordion__entry:first-of-type>.accordion__body {
+  background-color: rgb(182, 227, 212);
+  border-left: 2px solid #3eb489;
+  border-right: 2px solid #3eb489;
+}
+
+.accordion__entry:nth-of-type(2n)>.accordion__title,
+.accordion__entry:nth-of-type(2n)>.accordion__body {
+  background-color: lightblue;
+  border-left: 2px solid skyblue;
+  border-right: 2px solid skyblue;
+
+}
+
+.accordion__entry:nth-of-type(3n)>.accordion__title,
+.accordion__entry:nth-of-type(3n)>.accordion__body {
+  background-color: #e1bee7;
+  border-left: 2px solid #ba68c8;
+  border-right: 2px solid #ba68c8;
+}
+
+.accordion__title:hover {
+  opacity: 0.7;
+}
+
+.accordion__title::after {
+  position: absolute;
+  right: 1rem;
+  top: calc(50% - 1ch);
+}
+
+.accordion__title::after {
+  content: "\276F";
+}
+
+.accordion__entry--open .accordion__title::after {
+  content: "\22BF";
+}
+
+.accordion__body {
+  display: none;
+  border-radius: 0.7rem;
+  margin-bottom: 0.2rem;
+
+  padding: 1rem;
+}
+
+.accordion__entry--open .accordion__body {
+  display: block;
+  transition: all 1s ease-in-out;
+
+}
+
+.FAQs__img__container {
+  text-align: center;
+}
+
+.FAQs__img {
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+  max-width: 90vw;
+  height: auto;
+}

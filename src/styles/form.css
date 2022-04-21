@@ -1,0 +1,61 @@
+.Form {
+    background: seashell;
+    min-height: 500px;
+    padding-top: 1.5rem;
+}
+
+.form__comfirmation{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: seashell;
+}
+
+form>.form__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: none;
+    background: seashell;
+}
+
+.form__input__name, .form__input__email{
+    height: 40px;
+}
+
+.form__checkbox{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.form__dropdown{
+    height: 40px;
+}
+
+.table__item__interest{
+    height: 100px;
+}
+
+.form__item__name {
+    background-color: seashell;
+}
+
+.form__email__error--active{
+    display: block;
+    color: red;
+}
+
+.form__email__error--hidden{
+    display: none;
+}
+
+.form__submit{
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: calc(50% - 3ch);
+    margin-right: calc(50% - 3ch);
+    margin-bottom: 5rem;
+}
