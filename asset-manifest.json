@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Shiba-Time/static/css/main.eed2969c.css",
-    "main.js": "/Shiba-Time/static/js/main.8cf50f1c.js",
-    "static/js/787.7406849e.chunk.js": "/Shiba-Time/static/js/787.7406849e.chunk.js",
-    "static/media/shiba-2.jpeg": "/Shiba-Time/static/media/shiba-2.4c18ea468f704fd330c5.jpeg",
-    "static/media/shiba-1.jpeg": "/Shiba-Time/static/media/shiba-1.b6cf7aecdd0d2d3a4447.jpeg",
-    "index.html": "/Shiba-Time/index.html",
-    "main.eed2969c.css.map": "/Shiba-Time/static/css/main.eed2969c.css.map",
-    "main.8cf50f1c.js.map": "/Shiba-Time/static/js/main.8cf50f1c.js.map",
-    "787.7406849e.chunk.js.map": "/Shiba-Time/static/js/787.7406849e.chunk.js.map"
+    "main.css": "/Shiba-Time-SPA/static/css/main.eed2969c.css",
+    "main.js": "/Shiba-Time-SPA/static/js/main.88844ec3.js",
+    "static/js/787.556d733d.chunk.js": "/Shiba-Time-SPA/static/js/787.556d733d.chunk.js",
+    "static/media/shiba-2.jpeg": "/Shiba-Time-SPA/static/media/shiba-2.4c18ea468f704fd330c5.jpeg",
+    "static/media/shiba-1.jpeg": "/Shiba-Time-SPA/static/media/shiba-1.b6cf7aecdd0d2d3a4447.jpeg",
+    "index.html": "/Shiba-Time-SPA/index.html",
+    "main.eed2969c.css.map": "/Shiba-Time-SPA/static/css/main.eed2969c.css.map",
+    "main.88844ec3.js.map": "/Shiba-Time-SPA/static/js/main.88844ec3.js.map",
+    "787.556d733d.chunk.js.map": "/Shiba-Time-SPA/static/js/787.556d733d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eed2969c.css",
-    "static/js/main.8cf50f1c.js"
+    "static/js/main.88844ec3.js"
   ]
 }
