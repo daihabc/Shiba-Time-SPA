@@ -8,6 +8,7 @@ This single-page application is dedicated to the Shiba Inu dog breed. It aims to
 ### Images
 
 All images are from Pexels.com, which allows free use and alteration of images.
+
 -shiba with showcap by Anna Shvet
 
 -shiba with bowtie by Anna Shvet
